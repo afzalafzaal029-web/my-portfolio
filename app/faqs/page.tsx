@@ -31,7 +31,6 @@ export default function FAQsPage() {
 
       <section className="px-5 pt-32 pb-16 md:px-10 md:pt-40 md:pb-20">
         <div className="mx-auto max-w-3xl">
-          <p className="text-sm font-mono text-blue-600 uppercase tracking-wider text-center">FAQs</p>
           <h1 className="mt-2 text-3xl md:text-4xl font-bold text-slate-900 text-center">
             Frequently Asked Questions
           </h1>

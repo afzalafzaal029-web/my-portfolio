@@ -1,51 +1,58 @@
 export const contact = {
-  email: 'hello@afzaal.dev',
-  github: 'https://github.com/afzalafzaal029-web',
-  linkedin: 'https://www.linkedin.com/in/web-and-app-developere',
-  whatsapp: 'https://wa.me/923103104364',
-}
+  email: "webdeveloperafzaal@gmail.com",
+  github: "https://github.com/afzalafzaal029-web",
+  linkedin: "https://www.linkedin.com/in/web-and-app-developere",
+  whatsapp: "https://wa.me/923103104364",
+};
 
 export const projects = [
   {
-    title:'My Personal Portfolio Web site',
-    category: 'Portfolio / Personal',
-    describtion:'This web site serves ',
-    href :'https://portfolioafzaal.vercel.app'
+    title: "My Personal Portfolio Web site",
+    description:
+      "A modern, minimal portfolio website built with Next.js, TypeScript, and Tailwind CSS. Features smooth animations, responsive design, and a clean UI that reflects my personal brand as a developer.",
+    image: "/portfolio-image.png",
+    href: "https://portfolioafzaal.vercel.app",
   },
   {
-    number: '01',
-    title: 'Zoya Herbals',
-    category: 'E-commerce / Wellness',
-    description: 'A calm, conversion-focused botanical storefront pairing thoughtful product discovery with a crisp, trustworthy experience.',
-    image: '/zoya-herbals.png',
-    href: 'https://zoyaherbals.vercel.app',
-    tags: ['Next.js', 'TypeScript', 'Responsive UI'],
+    title: "Zoya Herbals",
+    description:
+      "A calm, conversion-focused botanical storefront pairing thoughtful product discovery with a crisp, trustworthy experience.",
+    image: "/zoya-herbals.png",
+    href: "https://zoyaherbals.vercel.app",
   },
   {
-    number: '02',
-    title: 'Pakistan Bakers',
-    category: 'Food / Hospitality',
-    description: 'A rich, story-led bakery experience built to turn handcrafted products into an immediate visual appetite.',
-    image: '/for-backers.png',
-    href: 'https://for-backers.vercel.app',
-    tags: ['Next.js', 'Motion', 'Art Direction'],
+    title: "TrendySHEK – Fashion E‑Commerce",
+    description:
+      "A classy, profit‑ready fashion store that screams quality the moment you land on it. Clean white design, lightning‑fast browsing, and a smooth buy‑now flow that turns visitors into paying customers. Perfectly tuned for Pakistani shoppers: whether they’re hunting for trendy outfits in Karachi, Lahore, Islamabad, or anywhere else, TrendySHEK pops up exactly when they search. Complete with cash‑on‑delivery, smart product filters, and a checkout that feels premium – a true high‑converting fashion hub.",
+    image: "/trendyshek.png",
+    href: "https://trendyshek.vercel.app",
   },
   {
-    number: '03',
-    title: 'Max Glamour',
-    category: 'Beauty / Booking',
-    description: 'An elegant salon presence that balances editorial visuals, service discovery, and a direct booking journey.',
-    image: '/max-glamour.png',
-    href: 'https://max-glamour.vercel.app',
-    tags: ['javascript', 'UX Design', 'Performance'],
+    title: "Afaaz - AI Note-Taking Platform",
+    description:
+      "A classy, profit‑ready fashion store that screams quality the moment you land on it. Clean white design, lightning‑fast browsing, and a smooth buy‑now flow that turns visitors into paying customers. Perfectly tuned for Pakistani shoppers: whether they’re hunting for trendy outfits in Karachi, Lahore, Islamabad, or anywhere else, TrendySHEK pops up exactly when they search. Complete with cash‑on‑delivery, smart product filters, and a checkout that feels premium – a true high‑converting fashion hub.",
+    image: "/afaaznotes.png",
+    href: "https://afaaz-notes.vercel.app/",
   },
   {
-    number: '04',
-    title: 'Pakistan Hair Salon',
-    category: 'Grooming / Local Business',
-    description: 'A premium grooming site designed around confidence, clear service communication, and effortless appointments.',
-    image: '/pakistan-hair-saloon.png',
-    href: 'https://pakistan-hair-saloon.vercel.app',
-    tags: ['html', 'javascript', 'Mobile First'],
+    title: "Pakistan Bakers",
+    description:
+      "A rich, story-led bakery experience built to turn handcrafted products into an immediate visual appetite.",
+    image: "/for-backers.png",
+    href: "https://for-backers.vercel.app",
   },
-] as const
+  {
+    title: "Max Glamour",
+    description:
+      "An elegant salon presence that balances editorial visuals, service discovery, and a direct booking journey.",
+    image: "/max-glamour.png",
+    href: "https://max-glamour.vercel.app",
+  },
+  {
+    title: "Pakistan Hair Salon",
+    description:
+      "A premium grooming site designed around confidence, clear service communication, and effortless appointments.",
+    image: "/pakistan-hair-saloon.png",
+    href: "https://pakistan-hair-saloon.vercel.app",
+  },
+] as const;

@@ -47,7 +47,6 @@ export default function ContactPage() {
       {/* Hero Header - Exactly like About & FAQ */}
       <section className="px-5 pt-32 pb-16 md:px-10 md:pt-40 md:pb-20">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-mono text-blue-600 uppercase tracking-wider">Contact</p>
           <h1 className="mt-2 text-3xl md:text-4xl font-bold text-slate-900">
             Let's talk about your project
           </h1>
