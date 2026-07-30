@@ -35,6 +35,13 @@ export const projects = [
     href: "https://afaaz-notes.vercel.app/",
   },
   {
+    title: "Zoya Jewels – Premium Jewelry E‑Commerce",
+    description:
+      "A premium, conversion‑focused jewellery storefront meticulously crafted to mirror the elegance of a luxury boutique. Built with Next.js 15 and TypeScript, it features dynamic product filtering across rings, necklaces, earrings, bangles, and bracelets, alongside a robust shopping cart with local storage persistence. The checkout flow is seamlessly optimised for Cash on Delivery across Pakistan. Every interaction—from subtle gold accents to smooth micro‑animations—is designed to elevate the browsing experience and build instant trust. Fully responsive and performance‑optimised for both mobile and desktop shoppers.",
+    image: "/zoya-jewels.png",
+    href: "https://zoyajewellers.vercel.app",
+  },
+  {
     title: "Pakistan Bakers",
     description:
       "A rich, story-led bakery experience built to turn handcrafted products into an immediate visual appetite.",
