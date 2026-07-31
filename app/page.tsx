@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowUpRight, Check, Code2, Sparkles } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { Navbar } from "./Components/Navbar";
 import { projects } from "./lib/portfolio";
 import { Footer } from "./Components/Footer";
@@ -17,7 +17,6 @@ export default function Page() {
       {/* Hero Section - Clean & Minimal */}
       <section className="px-5 pt-32 pb-16 md:px-10 md:pt-40 md:pb-20">
         <div className="mx-auto max-w-5xl">
-          <div className="flex items-center gap-2 text-sm font-mono text-blue-600 mb-4"></div>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-[1.1]">
             I build clear, useful <br />
             <span className="text-blue-600">digital products</span>
@@ -42,7 +41,8 @@ export default function Page() {
 
       <Skills />
       <hr />
-      {/* Featured Projects - Clean Cards with Gaps */}
+
+      {/* Featured Projects - Clean Cards with Icon Buttons */}
       <section className="px-5 py-16 md:px-10 md:py-20">
         <div className="mx-auto max-w-6xl">
           <div className="text-center mb-12">
@@ -76,23 +76,61 @@ export default function Page() {
                   />
                 </a>
                 <div className="p-5">
-                  <p className="text-xs font-mono text-blue-600 uppercase tracking-wider">
-                    {project.category}
-                  </p>
                   <h3 className="mt-1 text-lg font-semibold text-slate-900">
                     {project.title}
                   </h3>
                   <p className="mt-2 text-sm text-slate-600 line-clamp-2">
                     {project.description}
                   </p>
-                  <a
-                    href={project.href}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:text-blue-800 transition"
-                  >
-                    View Project <ArrowUpRight className="size-4" />
-                  </a>
+                  <br />
+                  {/* ✅ Icon Buttons – exactly as you wanted */}
+                  <div className="flex justify-between items-center mt-4">
+                    {project.hostedLink && (
+                      <Link
+                        href={project.hostedLink}
+                        target="_blank"
+                        className="text-slate-700 hover:text-white hover:bg-slate-700 p-2 rounded-xl transition-colors duration-300"
+                      >
+                        <svg
+                          className="h-9 w-9"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />
+                          <circle cx="12" cy="12" r="9" />
+                          <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                          <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                          <path d="M11.5 3a17 17 0 0 0 0 18" />
+                          <path d="M12.5 3a17 17 0 0 1 0 18" />
+                        </svg>
+                      </Link>
+                    )}
+                    {project.hostedLink && (
+                      <Link
+                        href={project.hostedLink}
+                        target="_blank"
+                        className="text-slate-700 hover:text-white hover:bg-slate-700 p-2 rounded-xl transition-colors duration-300"
+                      >
+                        <svg
+                          className="h-8 w-8"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                        </svg>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               </article>
             ))}
