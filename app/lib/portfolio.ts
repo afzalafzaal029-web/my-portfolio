@@ -25,7 +25,7 @@ export const projects = [
   {
     title: "TrendySHEK – Fashion E‑Commerce",
     description:
-      "A classy, profit‑ready fashion store that screams quality the moment you land on it. Clean white design, lightning‑fast browsing, and a smooth buy‑now flow that turns visitors into paying customers. Perfectly tuned for Pakistani shoppers: whether they’re hunting for trendy outfits in Karachi, Lahore, Islamabad, or anywhere else, TrendySHEK pops up exactly when they search. Complete with cash‑on‑delivery, smart product filters, and a checkout that feels premium – a true high‑converting fashion hub.",
+      "TrendySHEK is a fast, conversion-focused fashion e-commerce store built for Pakistani shoppers in Karachi, Lahore, Islamabad, and beyond. A clean, minimal white UI keeps browsing fast, while cash-on-delivery checkout, smart product filters, and a streamlined buy-now flow turn visitors into paying customers. Designed to feel premium at every step — from product discovery to checkout.",
     image: "/trendyshek.png",
     href: "https://trendyshek.vercel.app",
     hostedLink: "https://github.com/afzalafzaal029-web/TrendySHEK",
@@ -33,8 +33,7 @@ export const projects = [
   {
     title: "Afaaz - AI Note-Taking Platform",
     description:
-      "A classy, profit‑ready fashion store that screams quality the moment you land on it. Clean white design, lightning‑fast browsing, and a smooth buy‑now flow that turns visitors into paying customers. Perfectly tuned for Pakistani shoppers: whether they’re hunting for trendy outfits in Karachi, Lahore, Islamabad, or anywhere else, TrendySHEK pops up exactly when they search. Complete with cash‑on‑delivery, smart product filters, and a checkout that feels premium – a true high‑converting fashion hub.",
-    image: "/afaaznotes.png",
+      "Afaaz is an AI-powered note-taking app built with Next.js and TypeScript, designed to help users capture, organize, and retrieve ideas effortlessly. Smart search and tagging make it easy to find any note in seconds, while a clean, distraction-free interface keeps writing fast and frustration-free. Built for students and professionals who want their notes to work as hard as they do.",    image: "/afaaznotes.png",
     href: "https://afaaz-notes.vercel.app/",
     hostedLink: "https://github.com/afzalafzaal029-web/Afaaz-Notes-handler",
   },
