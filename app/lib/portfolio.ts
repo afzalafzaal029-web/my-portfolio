@@ -10,7 +10,7 @@ export const projects = [
     title: "Afzaal — Personal Portfolio Website",
     description:
       "My personal corner of the web — a modern, high‑performance portfolio built with Next.js 15, TypeScript, and Tailwind CSS. Features smooth Framer Motion animations, a fully responsive layout, and a clean, minimal UI that reflects my brand as a developer. The site includes an integrated contact form with serverless API, dynamic project showcase with filtering, and a premium dark/light theme toggle with View Transitions API. SEO‑optimized with Open Graph meta tags, JSON‑LD structured data, and perfect Lighthouse scores (100/100 performance). Trusted by recruiters and clients to showcase my work with clarity and confidence.",
-    image: "/portfolio-og.png",
+    image: "/portfolio-image.png",
     href: "https://portfolioafzaal.vercel.app",
     hostedLink: "https://github.com/afzalafzaal029-web/my-portfolio",
   },
