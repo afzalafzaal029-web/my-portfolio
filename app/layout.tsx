@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     title: "Afzaal — Web & App Developer",
     description:
       "Afzaal is a web and app developer creating expressive, high-performance digital experiences with Next.js and TypeScript.",
-    images: ["/og-image.jpg"],
+    images: ["/portfolio-image.png"],
     creator: "@afzaaldev",
     site: "@afzaaldev",
   },
