@@ -62,7 +62,7 @@ export const metadata: Metadata = {
       "Afzaal is a web and app developer creating expressive, high-performance digital experiences with Next.js and TypeScript.",
     images: [
       {
-        url: "/public/IMG_20260809_113114.png",
+        url: "/portfolio-image.png",
         width: 1200,
         height: 630,
         alt: "Afzaal Chandio — Web & App Developer",
