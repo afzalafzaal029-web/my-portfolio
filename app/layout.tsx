@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/portfolio-image.png",
-        width: 1200,
-        height: 630,
+        width: 1100,
+        height: 530,
         alt: "Afzaal Chandio — Web & App Developer",
       },
     ],
