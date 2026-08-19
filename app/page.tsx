@@ -62,7 +62,7 @@ export default function Page() {
                 key={project.title}
                 className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
-                <a
+                <Link
                   href={project.href}
                   target="_blank"
                   rel="noreferrer"
@@ -74,7 +74,7 @@ export default function Page() {
                     fill
                     className="object-cover object-top transition duration-500 group-hover:scale-105"
                   />
-                </a>
+                </Link>
                 <div className="p-5">
                   <h3 className="mt-1 text-lg font-semibold text-slate-900">
                     {project.title}
@@ -85,9 +85,9 @@ export default function Page() {
                   <br />
                   {/* ✅ Icon Buttons – exactly as you wanted */}
                   <div className="flex justify-between items-center mt-4">
-                    {project.hostedLink && (
+                    {project.href && (
                       <Link
-                        href={project.hostedLink}
+                        href={project.href}
                         target="_blank"
                         className="text-slate-700 hover:text-white hover:bg-slate-700 p-2 rounded-xl transition-colors duration-300"
                       >

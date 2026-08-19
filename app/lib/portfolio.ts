@@ -55,6 +55,22 @@ export const projects = [
     hostedLink: "https://github.com/afzalafzaal029-web/ironpulse",
   },
   {
+    title: "Aura Chics - Discover Your True Glow",
+    description:
+      "Aura Chics is your premier destination for beauty and self-care. Our salon offers a wide range of services, from haircuts and styling to skincare treatments, all designed to help you look and feel your best. Book your appointment online today and experience the ultimate in beauty and relaxation.",
+    image: "/Aura-Chics.png",
+    href: "https://aurachics.vercel.app",
+    hostedLink: "https://github.com/afzalafzaal029-web/Aura-Chics",
+  },
+  {
+    title: "Al-Hussainia Islamic Public School – Modern Islamic Education Platform",
+    description:
+      "A modern, engaging platform for Islamic education, featuring interactive learning tools, dynamic content delivery, and a user-friendly interface. Built with Next.js 15 and TypeScript, it provides a seamless experience for students and educators alike.",
+    image: "/al-hussainia.png",
+    href: "https://al-hussania-islamic-public-school.vercel.app",
+    hostedLink: "https://github.com/afzalafzaal029-web/Al-hussania-islamic-public-school-SHD",
+  },
+  {
     title: "Pakistan Bakers",
     description:
       "A rich, story-led bakery experience built to turn handcrafted products into an immediate visual appetite.",
