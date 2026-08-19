@@ -65,7 +65,7 @@ export const projects = [
     title: "Al-Hussainia Islamic Public School – Modern Islamic Education Platform",
     description:
       "A modern, engaging platform for Islamic education, featuring interactive learning tools, dynamic content delivery, and a user-friendly interface. Built with Next.js 15 and TypeScript, it provides a seamless experience for students and educators alike.",
-    image: "/al-hussainia.png",
+    image: "/Al-Hussainia.png",
     href: "https://al-hussania-islamic-public-school.vercel.app",
     hostedLink: "https://github.com/afzalafzaal029-web/Al-hussania-islamic-public-school-SHD",
   },
