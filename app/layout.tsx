@@ -60,21 +60,22 @@ export const metadata: Metadata = {
     title: "Afzaal — Web & App Developer",
     description:
       "Afzaal is a web and app developer creating expressive, high-performance digital experiences with Next.js and TypeScript.",
-    images: [
+ images: [
       {
-        url: "/portfolio-image.png",
+        url: "/IMG_20260809_115145.png", // public folder me rakhi hui image ka path
         width: 1200,
         height: 630,
-        alt: "Afzaal Chandio — Web & App Developer",
+        alt: "Afzaal Portfolio Preview",
       },
     ],
+    
   },
   twitter: {
     card: "summary_large_image",
     title: "Afzaal — Web & App Developer",
     description:
       "Afzaal is a web and app developer creating expressive, high-performance digital experiences with Next.js and TypeScript.",
-    images: ["/og-image.jpg"],
+    images: ["/IMG_20260809_115145.png"],
     creator: "@afzaaldev",
     site: "@afzaaldev",
   },
@@ -153,13 +154,12 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         {/* Favicon and Apple Touch Icon */}
+        
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta
-          name="google-site-verification"
-          content="UNx2lKPtjcM6Yo4CM2BXFD5w4AnImv6dvlQ-IhsLS6A"
-        />
+<link rel="icon" type="image/svg+xml" href="/icon.svg" />
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+<link rel="apple-touch-icon" href="/favicon-180x180.png" />
+<link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className="font-sans antialiased">
         <ThemeProvider>{children}</ThemeProvider>
