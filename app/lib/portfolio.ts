@@ -38,6 +38,14 @@ export const projects = [
     hostedLink: "https://github.com/afzalafzaal029-web/Afaaz-Notes-handler",
   },
   {
+    title: "Al-Hussainia Islamic Public School – Modern Islamic Education Platform",
+    description:
+      "A modern, engaging platform for Islamic education, featuring interactive learning tools, dynamic content delivery, and a user-friendly interface. Built with Next.js 15 and TypeScript, it provides a seamless experience for students and educators alike.",
+    image: "/Al-Hussainia.png",
+    href: "https://al-hussania-islamic-public-school.vercel.app",
+    hostedLink: "https://github.com/afzalafzaal029-web/Al-hussania-islamic-public-school-SHD",
+  },
+  {
     title: "Zoya Jewels – Premium Jewelry E‑Commerce",
     description:
       "A premium, conversion‑focused jewellery storefront meticulously crafted to mirror the elegance of a luxury boutique. Built with Next.js 15 and TypeScript, it features dynamic product filtering across rings, necklaces, earrings, bangles, and bracelets, alongside a robust shopping cart with local storage persistence. The checkout flow is seamlessly optimised for Cash on Delivery across Pakistan. Every interaction—from subtle gold accents to smooth micro‑animations—is designed to elevate the browsing experience and build instant trust. Fully responsive and performance‑optimised for both mobile and desktop shoppers.",
@@ -62,13 +70,12 @@ export const projects = [
     hostedLink: "https://github.com/afzalafzaal029-web/Aura-Chics",
   },
   {
-    title: "Al-Hussainia Islamic Public School – Modern Islamic Education Platform",
-    description:
-      "A modern, engaging platform for Islamic education, featuring interactive learning tools, dynamic content delivery, and a user-friendly interface. Built with Next.js 15 and TypeScript, it provides a seamless experience for students and educators alike.",
-    image: "/Al-Hussainia.png",
-    href: "https://al-hussania-islamic-public-school.vercel.app",
-    hostedLink: "https://github.com/afzalafzaal029-web/Al-hussania-islamic-public-school-SHD",
-  },
+  title: "Velvet Batch Bakery – Premium Artisan Bakery Website",
+  description:
+    "A premium, conversion-focused bakery website designed to showcase artisan breads, pastries, and cakes in an elegant digital storefront. Built with Next.js 15 and TypeScript, it features dynamic product pages with slug-based routing, a seamless ordering system with real-time notifications, and a fully functional contact form. The site includes a stunning dark/light theme toggle with View Transitions API, smooth Framer Motion animations, and a responsive design optimized for all devices. Every detail—from the custom SVG logo to the amber/gold color palette—is crafted to reflect the warmth and quality of a luxury bakery. Perfect for portfolio showcase with demo mode for bookings and orders.",
+  image: "/velvet-batch-preview.png",
+  href: "https://velvetbatch.vercel.app",
+  hostedLink: "https://github.com/afzalafzaal029-web/VelvetBatch"},
   {
     title: "Pakistan Bakers",
     description:
